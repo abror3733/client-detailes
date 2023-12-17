@@ -1,0 +1,178 @@
+/* basic style start   */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* basic style end  */
+body{
+  background-color: #00C689;
+}
+.wrapper{
+ width: 650px;
+ margin: 70px auto;
+ box-shadow: 0px 0px 4px 1px black;
+}
+.details{
+  width: 650px;
+  height: 80px;
+  text-align: center;
+  background-color: #29414F;
+}
+.details-title{
+ padding-top: 15px;
+ color: #fff;
+ font-family: sans-serif;
+ font-weight: normal;
+}
+.details-text{
+ color: #fff;
+ font-size: 13px;
+ font-family: sans-serif;
+ font-weight: normal;
+}
+.details-bottom{
+  height: 950px;
+  background-color: #fff;
+  padding: 25px;
+
+}
+.details-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.details-label{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.change-label{  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.details-input{
+  width: 350px;
+  border: none;
+  border-bottom: 1px solid #29414F;
+  padding-left: 10px;
+
+}
+.change-input{
+  width: 350px;
+}
+.input-change{
+  width: 40px;
+}
+.input-change-adres{
+  margin-left: 249px;
+  
+}
+.card{
+  display: flex;
+  
+}
+.card2{
+  margin-left: 249px;
+  display: flex;
+  justify-content: space-between;
+  
+
+ 
+}
+.card3{
+ margin-right: 8px;
+}
+.caed4{
+  display: flex;
+  justify-content: space-between;
+}
+
+.label-email{
+  margin-left: 85px;
+}
+
+.method-text{
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  color: #1A3443;
+}
+
+.input-adres{
+  width: 350px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 3px 0px;
+  padding-left: 3px;
+}
+.input-inner{
+  width: 170px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 3px 0px;
+  padding-left: 3px;
+}
+.input-file{
+  visibility: hidden;
+  width: 350px;
+  height: 50px;
+
+}
+.input-div{
+   
+  border: 1px dashed black;
+  width: 350px;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 15px;
+  align-items: center;
+
+
+}
+.choose-file{
+  font-family: sans-serif;
+  font-weight: 400;
+ 
+}
+.dow-img{
+  margin-left: 200px;
+}
+.submit{
+text-align: center;
+width: 80px;
+height: 30px;
+border-radius: 30px;
+border: none;
+background-color: green;
+color: white;
+font-family: sans-serif;
+cursor: pointer;
+transition: all 0.4s;
+}
+.submit:hover{
+  background-color: #fff;
+  border: 0.5px solid green;
+  color: green;
+  font-family: sans-serif;
+}
+.btn-sub{
+  
+  text-align: center;
+}
+.title-span{
+  font-family: sans-serif;
+  color: #1A3443;
+}
+
+
+
+
